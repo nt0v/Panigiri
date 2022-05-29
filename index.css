@@ -21,7 +21,7 @@ body {
 
     .total {
         background-color: #B6E2DB;
-        width: fit-content;
+        width: 300px;
         margin: 2rem auto 0 auto;
         border: 3px solid white;
         border-radius: 5px;

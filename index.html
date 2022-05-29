@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <title>Panigiri App</title>
+</head>
+<body>
+    <div class="orders">
+        <h1>Orders</h1>
+    </div>
+
+    <div class="total">
+        <p>Total: <span>0</span>€</p>
+    </div>
+
+    <div class="reset-all">
+        <button onclick="resetAll()">RESET ALL</button>
+    </div>
+
+    <div class="item">
+        <img src="souvlaki.jpg">
+        <p>Souvlaki</p>
+        <p>Quantity: <span id="s-cost">0</span></p>
+        <button onclick="addSouvlaki()" class="add-btn">ADD</button><br>
+        <button onclick="removeSouvlaki()" class="remove-btn">REMOVE</button><br>
+        <button onclick="resetSouvlaki()" class="reset-btn">RESET</button>
+    </div>
+    <div class="item">
+        <img src="loukaniko.jpg">
+        <p>Loukaniko</p>
+        <p>Quantity: <span id="l-cost">0</span></p>
+        <button onclick="addLoukaniko()" class="add-btn">ADD</button><br>
+        <button onclick="removeLoukaniko()" class="remove-btn">REMOVE</button><br>
+        <button onclick="resetLoukaniko()" class="reset-btn">RESET</button>
+    </div>
+    <div class="item">
+        <img src="cola.jpg">
+        <p>Coca-Cola</p>
+        <p>Quantity: <span id="c-cost">0</span></p>
+        <button onclick="addCola()" class="add-btn">ADD</button><br>
+        <button onclick="removeCola()" class="remove-btn">REMOVE</button><br>
+        <button onclick="resetCola()" class="reset-btn">RESET</button>
+    </div>
+    <div class="item">
+        <img src="beer.jpg">
+        <p>Beer</p>
+        <p>Quantity: <span id="b-cost">0</span></p>
+        <button onclick="addBeer()" class="add-btn">ADD</button><br>
+        <button onclick="removeBeer()" class="remove-btn">REMOVE</button><br>
+        <button onclick="resetBeer()" class="reset-btn">RESET</button>
+    </div>
+
+    <footer>
+        <p>Made by ~ntov</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
